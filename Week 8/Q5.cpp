@@ -54,11 +54,11 @@ int main()
     obj2.area();
     */
 
-    polygon *ank = new rectangle();
-    polygon *vat = new triangle();
-    ank->getdetails();
-    ank->area();
-    vat->getdetails();
-    vat->area();
+    polygon *rect = new rectangle();
+    polygon *tri = new triangle();
+    rect->getdetails();
+    rect->area();
+    tri->getdetails();
+    tri->area();
     return 0;
 }
