@@ -93,7 +93,7 @@ int main() {
           Enter employee id : 
           2
           Enter employee name : 
-          Ankit
+          Pareekshith
           Enter employee post level : 
           5
           Enter lab number : 
