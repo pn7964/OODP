@@ -137,7 +137,7 @@ public:
 
 int main()
 {
-    Shapes Ankit;
+    Shapes pareekshith;
     int vat;
     cout << "Enter 1 for Calculating Area" << endl
          << "Enter 2 for Calculating Volume" << endl;
@@ -146,12 +146,12 @@ int main()
     switch (vat)
     {
     case 1:
-        Ankit.getdetails();
-        Ankit.option_area();
+        pareekshith.getdetails();
+        pareekshith.option_area();
         break;
     case 2:
-        Ankit.getdetails();
-        Ankit.option_volume();
+        pareekshith.getdetails();
+        pareekshith.option_volume();
         break;
 
     default:
