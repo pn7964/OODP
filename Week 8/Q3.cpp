@@ -2,53 +2,44 @@
 #include <iostream>
 using namespace std;
 
-class Vatsa;
-class Ankit
+class paruchuri;
+class pareekshith
 {
     int num1;
 
 public:
-    Ankit()
+    pareekshith()
     {
         cout << "Enter number 1 : " << endl;
         cin >> num1;
     }
-    friend void sumof(Ankit a, Vatsa b);
+    friend void sumof(pareekshith a, paruchuri b);
 };
 
-class Vatsa
+class paruchuri
 {
     int num2;
 
 public:
-    Vatsa()
+    paruchuri()
     {
         cout << "Enter number 2 : " << endl;
         cin >> num2;
     }
-    friend void sumof(Ankit a, Vatsa b);
+    friend void sumof(pareekshith a, paruchuri b);
 };
 
-void sumof(Ankit a, Vatsa b)
+void sumof(pareekshith a, paruchuri b)
 {
     cout << "Sum of number 1 and number 2 is = " << a.num1 + b.num2 << endl;
 }
 
 int main()
 {
-    Ankit obj1;
-    Vatsa obj2;
+    pareekshith obj1;
+    paruchuri obj2;
 
     sumof(obj1, obj2);
 
     return 0;
 }
-
-/*
- Output:
-    Enter number 1 : 
-    5
-    Enter number 2 : 
-    7
-    Sum of number 1 and number 2 is = 12
-*/
