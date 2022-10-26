@@ -29,7 +29,7 @@ class Student
 
 int main()
 {
-    Student student1("Ankit Vatsa");
+    Student student1("pareekshith paruchuri");
     Student student2;
   
     cout<<"Execution of constructor with argument alongwith the making of object : "<<endl;
