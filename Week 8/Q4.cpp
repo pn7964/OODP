@@ -60,13 +60,13 @@ public:
 
 int main()
 {
-    Calculator *ankit = new square;
-    Calculator *vatsa = new rectangle;
-    Calculator *vat = new circle;
+    Calculator *sq = new square;
+    Calculator *rect = new rectangle;
+    Calculator *cir = new circle;
 
-    ankit->getdetails();
-    vatsa->getdetails();
-    vat->getdetails();
+    sq->getdetails();
+    rect->getdetails();
+    cir->getdetails();
 
     return 0;
 }
