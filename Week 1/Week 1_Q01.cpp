@@ -1,10 +1,3 @@
-//Program Description 
-/* Write a C++ program that will display the calculator menu. The program will prompt the user to choose the operation choice (from 1 to 5). 
-Then it asks the user to input two integer vales for the calculation. See the sample below.
-MENU 1. Add 2. Subtract 3. Multiply 4. Divide 5. Modulus
-Enter your choice: 1
-Enter your two numbers: 12 15 Result: 27 */
-
 #include <iostream>
 
 using namespace std;
