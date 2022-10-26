@@ -28,11 +28,11 @@ using namespace std;
   
 int main() 
 {
-     Student ankit;
+     Student pareekshith;
      
-     ankit.getDetails();
+     pareekshith.getDetails();
      
-     ankit.match_data();
+     pareekshith.match_data();
 
     return 0;
 }
