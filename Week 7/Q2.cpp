@@ -87,35 +87,3 @@ int main() {
 
     return 0;
 }
-
-/*
-    Sample Input:
-          Enter employee id : 
-          2
-          Enter employee name : 
-          Pareekshith
-          Enter employee post level : 
-          5
-          Enter lab number : 
-          21
-          Enter lab name : 
-          OODP
-          Enter Assistant Postname : 
-          Supervisor
-          Enter Assistant's experience : 
-          10
-          Enter language known : 
-          C++
-          Enter typing speed : 
-          120
-    Sample Output:
-          Employee id : 2
-          Employee name : Ankit
-          Employee post level : 5
-          Lab number : 21
-          Lab name : OODP
-          Assistant Postname : Supervisor
-          Assistant's experience : 10
-          Language known : C++
-          Typing speed : 120
-*/
