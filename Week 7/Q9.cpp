@@ -39,12 +39,3 @@ int main()
 
     return 0;
 }
-
-/*
-    Sample Input:
-      Enter a number : 
-      5
-    Sample Output:
-      Square of the number is : 
-      25
-*/
